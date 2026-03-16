@@ -261,6 +261,12 @@ Emitted only after user confirms.
 **Bet:** [Name]
 **Platform(s):** [Android / Desktop / Both]
 **Recommended Stage:** [Explore / Validate / Build]
+**Engineering team / area:** [e.g., dom-core / browser-feature / performance-eng / networking — use EngEstimator classification labels]
+
+### Requirements
+*Acceptance criteria / description of done — what must be true for this to be considered shipped.*
+- [Criterion 1]
+- [Criterion 2]
 
 ### What's being built
 [Precise technical description — what logic, what hooks, what prefs, what UI if any]
@@ -290,7 +296,9 @@ Emitted only after user confirms.
 *(Technical unknowns that affect build scope and timeline)*
 [Anything unresolved that would materially affect the estimate]
 
-<!-- INVOKE /[eng-estimate-skill] with the above context when the engineering estimate skill is available -->
+---
+*To invoke the engineering estimator, pass the above with:*
+*"Estimate the work to implement [Bet Name] in Firefox. Platform: [platform]. Team area: [area]. Requirements: [paste Requirements section]. Comp (if known): [analogous shipped Firefox feature or 'none']."*
 ```
 
 ---
